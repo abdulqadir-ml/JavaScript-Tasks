@@ -41,6 +41,12 @@ assert(
 	"Should return empty string if the argument is not a string"
 );
 
+assert(
+	convertToCamelCase({name: "Abdul Qadir"}),
+	"",
+	"Should return empty string if the argument is not a string"
+);
+
 //2. Argument passed is a string
 assert(
 	convertToCamelCase("This is some string"),

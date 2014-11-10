@@ -34,6 +34,7 @@ function findLongestWord(wordArr) {
 
 
 //TEST CASES
+console.log("Testing question 1");
 
 //1. argument passed is not an array - tested - OK
 assert(findLongestWord(1), 0, "The return value should be -1 as argument passed is not an array");
