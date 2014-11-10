@@ -11,7 +11,6 @@ function reverse(str) {
 		reverseStr += str[i];
 	}
 
-	console.log(reverseStr);
 	return reverseStr;
 
 }
@@ -28,6 +27,6 @@ assert(
 //2. String is passed as an argument and is reversed correctly
 assert(
 	reverse("hello world"),
-	"eh",
+	"dlrow olleh",
 	"String is not reversed correctly"
 )
